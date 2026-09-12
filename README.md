@@ -30,10 +30,10 @@ Create an environment variable with your OpenAI API key:
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
-On Windows (PowerShell):
+On Windows (PowerShell), set it persistently (then open a **new** terminal):
 
 ```powershell
-$env:OPENAI_API_KEY = "your-api-key-here"
+setx OPENAI_API_KEY "your-api-key-here"
 ```
 
 ### Running
